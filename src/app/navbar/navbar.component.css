@@ -3,6 +3,11 @@
   max-height: 60vh;
 }
 
+.navbar-asides {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar-background {
   width: 55vw;
   height: 60vh;
@@ -13,7 +18,7 @@
 
 .navbar-profile-container {
   position: absolute;
-  top: calc(5%);
+  top: calc(10%);
   left: calc(10%);
 }
 
@@ -63,4 +68,28 @@
 .navbar-logo {
   width: 100px;
   height: 100px;
+}
+
+.navbar-rightside {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  margin: 0 auto;
+}
+
+.navbar-rightside-title {
+  font-weight: 700;
+  font-size: x-large;
+  text-align: justify;
+  line-height: 25px;
+  line-break: strict;
+  margin: 60px auto 0 auto;
+}
+
+.navbar-rightside-gif {
+  max-width: 35vw;
+}
+
+.navbar-rightside-person-answering-question-gif {
+  height: 60vh;
 }

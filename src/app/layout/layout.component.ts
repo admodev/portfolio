@@ -1,17 +1,23 @@
+// Angular core modules and components
 import { Component } from '@angular/core';
+
+// Components
 import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
   imports: [
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   template: `
     <app-navbar></app-navbar>
     <main>
       <ng-content></ng-content>
     </main>
+    <app-footer></app-footer>
   `,
   styles: [
     `
